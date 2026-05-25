@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --text-padrao: "Nanum Myeongjo", serif;
+    --color-header: rgba(245, 245, 220, 0.512);
+}
+body{
+        background-color: beige;
+}
+
+.textandimage{
+    visibility: hidden;
+}

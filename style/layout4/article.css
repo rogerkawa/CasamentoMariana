@@ -1,0 +1,134 @@
+article{
+ background-image: linear-gradient(#f5f5dce7, #f5f5dce7), url('../../assets/images/DSCF6556.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding-bottom: 80px;
+    overflow: hidden;
+}
+.titulos{
+    font-family: var(--text-padrao);
+    text-align: center;
+    h1{
+        font-weight: 400;
+        padding-top: 60px;
+        font-size: 90px;
+    }
+    h2{
+        font-weight: 400;
+        font-size: 60px;
+        margin-bottom: 80px;
+    }
+}
+.grids{
+    margin: 0 auto;
+    justify-items: center;
+    max-width: 1500px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.grid{
+    width: 400px;
+    display: flex;
+    span{
+         font-family: var(--text-padrao);
+        padding-top: 50px;
+        font-size: 25px;
+        padding-left: 10px;
+    }
+    img{
+        width: 40%;
+    }
+}
+@media (max-width: 1200px){
+
+    .grids{
+        grid-template-columns: repeat(2,1fr);
+        padding: 20px;
+    }
+
+}
+@media (max-width: 900px){
+
+    
+
+    .grids{
+        grid-template-columns: repeat(2,1fr);
+        gap: 60px;
+    }
+
+    .grid{
+        max-width: 100%;
+    }
+
+    .grid img{
+        width: 25%;
+    }
+
+    .grid span{
+        padding: 20px 0;
+    }
+
+    .titulos h1{
+        font-size: 70px;
+    }
+
+    .titulos h2{
+        font-size: 45px;
+    }
+
+}
+
+@media (max-width: 768px){
+
+   
+    .titulos h1{
+        font-size: 60px;
+        padding-top: 40px;
+    }
+
+    .titulos h2{
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+
+    .grids{
+        grid-template-columns: 1fr;
+    }
+
+    .grid{
+        width: 100%;
+        max-width: 400px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .grid span{
+        padding: 20px 0;
+        font-size: 22px;
+    }
+
+    .grid img{
+        width: 45%;
+    }
+
+}
+
+@media (max-width: 480px){
+
+    .titulos h1{
+        font-size: 45px;
+    }
+
+    .titulos h2{
+        font-size: 30px;
+    }
+
+    .grid span{
+        font-size: 18px;
+    }
+
+}

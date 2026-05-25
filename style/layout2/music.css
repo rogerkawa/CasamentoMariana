@@ -1,0 +1,44 @@
+#music{
+    width: 100%;
+    max-width: 1300px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+}
+#music h1{
+    font-size: 40px;
+    font-family: "Bodoni Moda", serif;
+    font-weight: 600;
+}
+#music span{
+    font-family: "Bodoni Moda", serif;
+}
+#music audio{
+    filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(100%);
+}
+@media (max-width: 768px){
+
+    #music{
+        padding: 20px;
+    }
+
+    #music h1{
+        font-size: 32px;
+    }
+
+    #music audio{
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 480px){
+
+    #music h1{
+        font-size: 26px;
+    }
+
+}

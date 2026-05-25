@@ -1,0 +1,112 @@
+article{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+}
+.local{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    justify-items: center;
+}
+.local img{
+    max-width: 500px;
+}
+article > h1{
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+}
+.local1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.local1 button, .local2 button{
+    margin: 0 auto;
+    width: 20vw;
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid var(--color2);
+    background: none;
+    color: var(--color2);
+    outline: 0;
+    position: relative;
+    overflow:hidden;
+    z-index: 1;
+    cursor: pointer;
+    transition:         0.1s ease-in;
+    -o-transition:      0.1s ease-in;
+    -ms-transition:     0.1s ease-in;
+    -moz-transition:    0.1s ease-in;
+    -webkit-transition: 0.1s ease-in;
+}
+
+.local1 button:hover, .local2 button:hover  {
+    color: var(--color1);
+}
+
+.local1 button::before, .local2 button::before{
+    content: "";
+    position: absolute;
+    background: var(--color2);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100%;
+    z-index: -1;
+    -webkit-transition: top 0.3s ease-in;
+}
+
+.local1 button:hover::before, .local2 button:hover::before {
+    top: 0;
+}
+
+.local2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+@media (max-width: 1024px){
+
+    .local{
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .local img{
+        max-width: 400px;
+    }
+
+}
+
+@media (max-width: 768px){
+
+    .local{
+        grid-template-columns: 1fr;
+    }
+
+    article > h1{
+        font-size: 38px;
+    }
+
+    .local1 button,
+    .local2 button{
+        width: 70vw;
+    }
+
+    .local img{
+        max-width: 100%;
+    }
+
+}
+
+@media (max-width: 480px){
+
+    article > h1{
+        font-size: 30px;
+    }
+
+}

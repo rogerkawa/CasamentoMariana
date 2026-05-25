@@ -1,0 +1,76 @@
+#sobre{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    width: 100%;
+    max-width: 1300px;
+    margin: 50px auto;
+    border: 15px solid var(--color1);
+    box-shadow: 2px 2px 5px var(--color1);
+    padding: 40px;
+}
+#sobre h1{
+    grid-column: 4 span;
+    text-align: center;
+    font-family: "Bodoni Moda", serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+#sobre p{
+    text-align: center;
+    text-transform: uppercase;
+}
+#sobre img{
+    max-width: 60px;
+}
+.p1, .p2, .p3, .p4{
+    grid-column: 2 span;
+}
+.p5{
+    grid-column: 4 span;
+}
+@media (max-width: 1024px){
+
+    #sobre{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    #sobre h1{
+        grid-column: span 2;
+    }
+
+    .p5{
+        grid-column: span 2;
+    }
+
+}
+
+@media (max-width: 768px){
+
+    #sobre{
+        grid-template-columns: 1fr;
+        padding: 25px;
+    }
+
+    #sobre h1,
+    .p1,
+    .p2,
+    .p3,
+    .p4,
+    .p5{
+        grid-column: span 1;
+    }
+
+}
+
+@media (max-width: 480px){
+
+    #sobre h1{
+        font-size: 30px;
+    }
+
+    #sobre{
+        border-width: 8px;
+    }
+
+}
