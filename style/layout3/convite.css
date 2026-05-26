@@ -1,5 +1,5 @@
 #convite{
-    background-image: url('../../assets/images/Convite.png');
+    background-image: url('../../assets/images/Convite\ \(1\).png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,13 +15,15 @@
     font-family: "Nanum Myeongjo", serif;
     font-weight: 400;
     margin-top: 100px;
+    color: var(--color3);
 }
 #convite button{
     margin-bottom: 70px;
     width: 20vw;
     padding: 15px;
     background: transparent;
-    border: 2px solid var(--color2);
+    border: 2px solid var(--color3);
+    color: var(--color3);
     border-radius: 20px;
     transition: 0.5s;
     cursor: pointer;

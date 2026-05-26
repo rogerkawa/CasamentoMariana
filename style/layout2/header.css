@@ -6,10 +6,7 @@ header{
     margin: 0 auto;
     justify-content: space-between;
     padding: 20px;
-    color: gray;
-    position: sticky;
-    top: 0;
-    z-index: 2;
+    color: var(--color5);
 } 
 ul{
     display: flex;
@@ -17,7 +14,7 @@ ul{
     gap: 25px;
 }
 li{
-    background-image: linear-gradient(gray, gray);
+    background-image: linear-gradient(var(--color5), var(--color5));
     background-position: 0% 100%;
     background-size: 0% 2px;
     background-repeat: no-repeat;

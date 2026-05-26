@@ -10,17 +10,23 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #fff8dc;
+    background-color: var(--color4);
+}
+body,html{
+    overflow-x: hidden;
 }
 img{
     width: 100%;
 }
 
 :root{
-    --font1: font-family: "Poppins", sans-serif;
-    --font2: font-family: "Nanum Myeongjo", serif;
+    --font1: "Poppins", sans-serif;
+    --font2: "Nanum Myeongjo", serif;
     --color1: #fff8dc;
     --color2: #674846;
+    --color3: #9caf88;
+    --color4: #fff6e5;
+    --color5: #667349;
 }
 
 main h1, main p, .title, .box, article h1, .local1, .local2, .presents h1, .presents p, #convite{

@@ -12,9 +12,11 @@
     font-size: 40px;
     font-family: "Bodoni Moda", serif;
     font-weight: 600;
+    color: var(--color5);
 }
 #music span{
     font-family: "Bodoni Moda", serif;
+    color: var(--color5);
 }
 #music audio{
     filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(100%);

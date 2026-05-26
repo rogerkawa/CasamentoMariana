@@ -1,5 +1,5 @@
 article{
- background-image: linear-gradient(#f5f5dce7, #f5f5dce7), url('../../assets/images/DSCF6556.jpg');
+ 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -14,11 +14,13 @@ article{
         font-weight: 400;
         padding-top: 60px;
         font-size: 90px;
+        color: var(--cor2);
     }
     h2{
         font-weight: 400;
         font-size: 60px;
         margin-bottom: 80px;
+        color: var(--cor2);
     }
 }
 .grids{
@@ -40,8 +42,18 @@ article{
     }
     img{
         width: 40%;
+        filter: brightness(0) saturate(100%) invert(96%) sepia(14%) saturate(384%) hue-rotate(309deg) brightness(103%) contrast(102%);
     }
 }
+.grid span{
+    color: var(--cor2);
+}
+footer{
+    padding: 10px;
+    color: var(--cor3);
+    text-align: center;
+}
+
 @media (max-width: 1200px){
 
     .grids{

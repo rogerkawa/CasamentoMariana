@@ -5,8 +5,8 @@
     width: 100%;
     max-width: 1300px;
     margin: 50px auto;
-    border: 15px solid var(--color1);
-    box-shadow: 2px 2px 5px var(--color1);
+    border: 15px solid var(--color3);
+    box-shadow: 2px 2px 5px var(--color5);
     padding: 40px;
 }
 #sobre h1{
@@ -15,19 +15,27 @@
     font-family: "Bodoni Moda", serif;
     font-size: 40px;
     font-weight: 400;
+    color: var(--color5);
 }
 #sobre p{
     text-align: center;
     text-transform: uppercase;
 }
 #sobre img{
-    max-width: 60px;
+    max-width: 70px;
+    filter: brightness(0) saturate(100%) invert(43%) sepia(14%) saturate(738%) hue-rotate(31deg) brightness(91%) contrast(88%);
 }
 .p1, .p2, .p3, .p4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
     grid-column: 2 span;
+    color: var(--color5);
 }
 .p5{
     grid-column: 4 span;
+    color: var(--color5);
 }
 @media (max-width: 1024px){
 

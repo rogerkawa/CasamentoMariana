@@ -19,19 +19,22 @@
     grid-column: span 3;
     font-size: 50px;
     /* font-family: "Pinyon Script", cursive; */
-    font-family: "Bodoni Moda", serif; 
+    font-family: var(--font2); 
     font-weight: 400;
+}
+.gallery strong{
+    color: var(--color3);
 }
 @media (max-width: 1024px){
 
     .gallery{
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(3,1fr);
         gap: 20px;
         padding: 20px;
     }
 
     .gallery h1{
-        grid-column: span 2;
+        grid-column: span 3;
     }
 
 }

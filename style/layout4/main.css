@@ -10,9 +10,11 @@ main{
     h1{
         font-size: 150px;
         font-family: var(--text-padrao);
+        color: var(--cor2);
+        text-shadow: 1px 1px 1px gray;
         font-weight: 100;
         position: absolute;
-        right: 600px;
+        right: 700px;
         top: -95px;
     }
 }
@@ -29,6 +31,7 @@ main{
     text-align: center;
     display: flex;
     flex-direction: column;
+    color: var(--cor3);
     span{
         font-size: 25px;
         margin-top: 40px;
@@ -61,6 +64,7 @@ main{
     padding: 40px;
     text-align: center;
     font-size: 40px;
+    color: var(--cor3);
 }
 .color {
     width: 70px;
@@ -90,13 +94,16 @@ main{
 @media (max-width: 1200px){
 
     main h1{
-        right: 300px;
+        right: 400px;
+        top: -75px;
         font-size: 120px;
     }
 
     .textandimage{
         width: 90%;
         gap: 30px;
+        flex-direction: column;
+        align-items: center;
     }
 
     .text{

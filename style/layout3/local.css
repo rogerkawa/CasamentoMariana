@@ -11,13 +11,31 @@ article{
     justify-items: center;
 }
 .local img{
-    max-width: 500px;
+    max-width: 700px;
 }
 article > h1{
     margin-top: 50px;
     font-size: 50px;
-    font-family: "Nanum Myeongjo", serif;
+    font-family: var(--font1);
+    color: var(--color5);
+    text-transform: uppercase;
     font-weight: 400;
+}
+.local1 h2, .local2 h2{
+    font-family: var(--font1);
+    color: var(--color5);
+    font-weight: 400;
+}
+.local1 h1, .local2 h1{
+    font-family: var(--font1);
+    color: var(--color5);
+    font-weight: 500;
+}
+.local1 p, .local2 p{
+    color: var(--color3);
+}
+.local1 span, .local2 span{
+    color: var(--color5);
 }
 .local1{
     display: flex;
@@ -29,9 +47,9 @@ article > h1{
     width: 20vw;
     padding: 15px;
     border-radius: 15px;
-    border: 2px solid var(--color2);
+    border: 2px solid var(--color3);
     background: none;
-    color: var(--color2);
+    color: var(--color3);
     outline: 0;
     position: relative;
     overflow:hidden;
@@ -51,7 +69,7 @@ article > h1{
 .local1 button::before, .local2 button::before{
     content: "";
     position: absolute;
-    background: var(--color2);
+    background: var(--color3);
     bottom: 0;
     left: 0;
     right: 0;

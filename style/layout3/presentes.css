@@ -1,7 +1,7 @@
 #presents{
     width: 100%;
     margin-top: 40px;
-    background: var(--color2);
+    background: var(--color3);
     color: var(--color1);
 }
 .presents{
@@ -37,6 +37,9 @@
 }
 .presents button:hover{
     transform: scale(1.08);
+}
+.presents a{
+    color: var(--color1);
 }
 @media (max-width: 1024px){
 
