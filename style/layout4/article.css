@@ -47,6 +47,7 @@ article{
 }
 .grid span{
     color: var(--cor2);
+    font-family: var(--font2);
 }
 footer{
     padding: 10px;
