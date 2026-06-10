@@ -37,12 +37,15 @@ main{
 
 .married h1{
     font-family: var(--font1);
-    color: var(--color4);
+    color: #fffaf0;
+    text-shadow:
+    0 0 10px rgba(253,195,78,.8),
+    0 0 20px rgba(253,195,78,.6),
+    2px 2px 15px rgba(0,0,0,.6);
     font-size: clamp(2rem, 6vw, 5rem);
     font-weight: 400;
     line-height: 1.2;
     word-break: break-word;
-    text-shadow: 2px 2px 15px rgba(0,0,0,0.7);
 }
 @keyframes fadeInText {
     to{

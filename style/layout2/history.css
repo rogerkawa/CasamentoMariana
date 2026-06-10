@@ -44,9 +44,11 @@
     font-size: 60px;
     font-family: "Pinyon Script", cursive;  
     transform: translateY(20px);
+    color: var(--color6);
 }
 .history p{
-    font-family: "Bodoni Moda", serif;  
+    font-family: "Bodoni Moda", serif; 
+    color: var(--color1); 
     line-height: 25px;
     text-align: center;
     letter-spacing: 2px;

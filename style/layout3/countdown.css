@@ -1,9 +1,44 @@
 #countdown{
     width: 100%;
     padding: 20px; 
-    background: var(--color3);
+    background:
+linear-gradient(135deg,#6b4ca5,#8f6ac6);
     margin: 0 auto;
+    position: relative;
     /* background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../assets/images/backgroundConvite.jpeg'); */
+}
+#countdown::before{
+    content: '';
+    position: absolute;
+
+    width: 120px;
+    height: 120px;
+
+    background-image: url('../../assets/images/lanterna.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    left: 5%;
+    top: 20%;
+
+    opacity: .12;
+}
+#countdown::after{
+    content: '';
+
+    position: absolute;
+
+    width: 120px;
+    height: 120px;
+
+    background-image: url('../../assets/images/lanterna.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    right: 5%;
+    top: 20%;
+
+    opacity: .12;
 }
 
 /* Contador Regressivo */
@@ -17,7 +52,7 @@
     grid-column: 4 span;
     text-align: center;
     font-size: 50px;
-    color: var(--color1);
+    color: #fffaf0;;
     margin: 20px auto;
     font-family: "Pinyon Script", cursive;
 }
@@ -29,11 +64,11 @@
 .value{
     font-size: 40px;
     font-weight: 400;
-    color: var(--color1);
+    color: #fdc34e;
 }
 .name{
     font-size: 16px;
-    color: var(--color1);
+    color: rgba(255,255,255,.85);
 }
 /* Fim Contador */
 

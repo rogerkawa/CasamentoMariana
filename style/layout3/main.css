@@ -14,13 +14,13 @@ main{
 main h1{
     font-family: var(--font1);
     font-weight: 400;
-    color: var(--color5);
+    color: var(--color8);
     font-size: 40px;
 }
 main p{
     font-family: "Bodoni Moda", serif;
     font-size: 20px;
-    color: var(--color5);
+    color: var(--color2);
 }
 @media (max-width: 1024px){
 

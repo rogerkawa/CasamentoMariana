@@ -10,8 +10,17 @@ article{
     margin: 0 auto;
     justify-items: center;
 }
+.local1, .local2{
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 2rem;
+    box-shadow: 0 15px 35px rgba(0,0,0,.08);
+    border: 1px solid rgba(253,195,78,.35);
+}
 .local img{
     max-width: 700px;
+    border-radius: 24px;
+    box-shadow: 0 15px 35px rgba(0,0,0,.12);
 }
 article > h1{
     margin-top: 50px;
@@ -23,12 +32,12 @@ article > h1{
 }
 .local1 h2, .local2 h2{
     font-family: var(--font1);
-    color: var(--color5);
+    color: var(--color6);
     font-weight: 400;
 }
 .local1 h1, .local2 h1{
     font-family: var(--font1);
-    color: var(--color5);
+    color: var(--color8);
     font-weight: 500;
 }
 .local1 p, .local2 p{
@@ -47,9 +56,9 @@ article > h1{
     width: 20vw;
     padding: 15px;
     border-radius: 15px;
-    border: 2px solid var(--color3);
+    border: 2px solid var(--color6);
     background: none;
-    color: var(--color3);
+    color: var(--color6);
     outline: 0;
     position: relative;
     overflow:hidden;
@@ -63,13 +72,14 @@ article > h1{
 }
 
 .local1 button:hover, .local2 button:hover  {
+    background: var(--color6);
     color: var(--color1);
 }
 
 .local1 button::before, .local2 button::before{
     content: "";
     position: absolute;
-    background: var(--color3);
+    background: var(--color6);
     bottom: 0;
     left: 0;
     right: 0;

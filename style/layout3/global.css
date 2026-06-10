@@ -22,11 +22,16 @@ img{
 :root{
     --font1: "Poppins", sans-serif;
     --font2: "Nanum Myeongjo", serif;
-    --color1: #fff8dc;
-    --color2: #674846;
-    --color3: #9caf88;
-    --color4: #fff6e5;
-    --color5: #667349;
+
+    --color1: #fffaf0; /* texto claro */
+    --color2: #5b4747; /* texto escuro */
+    --color3: #f4912c; /* laranja */
+    --color4: #f7e7e7; /* fundo suave */
+    --color5: #fdc34e; /* dourado */
+
+    --color6: #fd0283; /* rosa */
+    --color7: #3c733a; /* verde */
+    --color8: #6b4ca5; /* roxo/lavanda */
 }
 
 main h1, main p, .title, .box, article h1, .local1, .local2, .presents h1, .presents p, #convite{

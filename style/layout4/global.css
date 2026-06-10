@@ -9,14 +9,11 @@
     --text-padrao: "Nanum Myeongjo", serif;
     --font2: "Poppins", sans-serif;
     --color-header: rgba(245, 245, 220, 0.512);
-    --cor1: #9caf88;
-    --cor2: #fff6e5;
-    --cor3: #667349;
+    --cor1: #3c8938;
+    --cor2: #fdc34e;
+    --cor3: #3c733a;
 }
 body{
         background-color: var(--cor1);
 }
 
-.textandimage{
-    visibility: hidden;
-}
