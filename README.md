@@ -60,7 +60,7 @@ O projeto foi desenvolvido utilizando tecnologias para desenvolvimento web:
 
 ## 🌐 Acesse o site
 
-[💍 Site de Casamento — Mariana & Gabriel](https://rogerkawa.github.io/CasamentoMariana/?utm_source=chatgpt.com)
+[💍 Site de Casamento — Mariana & Gabriel](https://rogerkawa.github.io/CasamentoMariana/)
 
 ## 📚 Objetivo do projeto
 
